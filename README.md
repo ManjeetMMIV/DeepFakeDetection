@@ -44,7 +44,7 @@ Training Accuracy: 89.7%
 Training Loss: 0.17
 
 🧪 Testing Results
-Testing Accuracy: 98.26%
+Testing Accuracy: 86.26%
 
 Average Test Loss: 0.0703
 
