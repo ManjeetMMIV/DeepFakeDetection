@@ -11,22 +11,22 @@ Source: Celeb-DF (v1)
 🔴 432 fake videos
 
 **⚙️ Preprocessing Pipeline**
-Video Trimming: Each video is trimmed to 150 frames using OpenCV.
+_Video Trimming_: Each video is trimmed to 150 frames using OpenCV.
 
-Face Extraction: Faces are cropped from these frames. For each video, 10 valid face frames are selected.
+_Face Extraction_: Faces are cropped from these frames. For each video, 10 valid face frames are selected.
 
-Debugging Support: Videos with no detected faces are displayed for manual review.
+_Debugging Support_: Videos with no detected faces are displayed for manual review.
 
-Transformations: Selected face frames are resized and transformed to the input shape required for ResNeXt-50.
+_Transformations_: Selected face frames are resized and transformed to the input shape required for ResNeXt-50.
 
 
 **🧠 Model Architecture**
-CNN Backbone: Pretrained ResNeXt-50 extracts spatial features from individual frames.
-Temporal Modeling: Features from 10 frames are fed into an LSTM to capture sequential patterns.
-Classification Head: Final linear layer outputs class logits.
-Loss Function: CrossEntropyLoss with class weighting to manage imbalance.
+**CNN Backbone:** _Pretrained ResNeXt-50 extracts spatial features from individual frames._
+**Temporal Modeling**: _Features from 10 frames are fed into an LSTM to capture sequential patterns._
+**Classification Head**: _Final linear layer outputs class logits._
+**Loss Function**:_ CrossEntropyLoss with class weighting to manage imbalance._
 
-🏷️ Label Mapping
+🏷️** Label Mapping**
 Real: 0
 
 Fake: 1
