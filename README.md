@@ -44,9 +44,11 @@ Fake: 1
 **(Evaluation Score) Recall**: **86%**
 
 
-🔍** Confusion Matrix**
+🔍**Confusion Matrix**
 <img width="624" height="580" alt="image" src="https://github.com/user-attachments/assets/cace4ac8-5e69-4ba5-b742-905c5cc611d1" />
-**_Classification Report:
+
+
+Classification Report:
                     precision    recall  f1-score   support
 
   Real (Class 0)       0.88      0.98      0.92        88
@@ -55,6 +57,6 @@ Deepfake (Class 1)     0.97      0.86      0.91        84
         accuracy                           0.92       172
        macro avg       0.92      0.92      0.92       172
     weighted avg       0.92      0.92      0.92       172
-    The most important evaluation score for this model the recall is found out to be 86%_**
+    The most important evaluation score for this model the recall is found out to be 86%
 
 
