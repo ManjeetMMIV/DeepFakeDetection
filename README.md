@@ -50,6 +50,6 @@ Fake: 1
 _**Classification Report**_
 <img width="729" height="277" alt="image" src="https://github.com/user-attachments/assets/1fb35121-e02b-4065-98b0-3b4f23188200" />
 
-    The most important evaluation score for this model the recall is found out to be 86%
+ **The most important evaluation score for this model - Recall is found out to be 86%**
 
 
