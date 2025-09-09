@@ -1,8 +1,10 @@
 _**DeepFake Detection Using ResNeXt-50 + LSTM
-This project implements a deepfake video classification system using a combination of ResNeXt-50 (for spatial feature extraction) and LSTM (for temporal sequence modeling). The model is trained to distinguish between real and fake videos using the Celeb-DF (v1) dataset.**
-**_
-📁 Dataset**
+This project implements a deepfake video classification system using a combination of ResNeXt-50 (for spatial feature extraction) and LSTM (for temporal sequence modeling). The model is trained to distinguish between real and fake videos using the Celeb-DF (v1) dataset.**__
+
+
+📁 **Dataset**
 Source: Celeb-DF (v1)
+
 
 **Composition:**
 🟢 428 real videos
@@ -16,6 +18,7 @@ Face Extraction: Faces are cropped from these frames. For each video, 10 valid f
 Debugging Support: Videos with no detected faces are displayed for manual review.
 
 Transformations: Selected face frames are resized and transformed to the input shape required for ResNeXt-50.
+
 
 **🧠 Model Architecture**
 CNN Backbone: Pretrained ResNeXt-50 extracts spatial features from individual frames.
