@@ -26,9 +26,9 @@ _Transformations_: Selected face frames are resized and transformed to the input
 **Classification Head**: _Final linear layer outputs class logits._
 **Loss Function**:_ CrossEntropyLoss with class weighting to manage imbalance._
 
-🏷️** Label Mapping**
-Real: 0
+🏷️**Label Mapping**
 
+Real: 0
 Fake: 1
 
 🛠️ **Frameworks & Libraries:**
